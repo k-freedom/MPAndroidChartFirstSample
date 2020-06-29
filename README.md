@@ -15,8 +15,8 @@ Sample for using "MPAndroidChart" in AndroidStudio4.0 (this sample in private)
   　　これでチャートのイベントリスナを設定する感じ。  
   ３．mTypefaceという名前でTypeface（外観？）を定義  
   ４．チャートを実装するときに必要になる以下のイベントをoverrideで記述する。（記述してないとビルド時にエラーになる）  
-   ・「onValueSelected」  
-   ・「onNothingSelected」  
+  　・「onValueSelected」  
+  　・「onNothingSelected」  
   ５．setupLineChartメソッドの中でチャートの設定をしている。（メソッド名はなんでもいい、軸やラベルの設定はここでやっている）  
   ６．lineDataWithCountメソッドの中でチャートのデータを作成している。（ここは実際に使うデータによって修正が必要）  
   ７．元からあるonCreateイベントの中で上記5と6で作ったメソッドを使用してチャートの初期設定をおこなっている。  
