@@ -10,6 +10,15 @@ Sample for using "MPAndroidChart" in AndroidStudio4.0 (this sample in private)
   
   
 ### 【基本的な使い方】  
+  ０．まず事前にGradleの設定ファイル「build.gradle」に以下の設定を追記する。（このプロジェクトのファイルを参考に）  
+  　repositories {  
+  　  maven { url 'https://jitpack.io' }  
+  　}  
+  　  
+  　dependencies {  
+  　   implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'  
+  　}  
+  
   １．activity_main/xmlで使うチャートを定義しておく。名前とか位置の制約とか。  
   ２．MainActivityのクラス宣言部分で「OnChartValueSelectedListener」を記述する。  
   　　これでチャートのイベントリスナを設定する感じ。  
