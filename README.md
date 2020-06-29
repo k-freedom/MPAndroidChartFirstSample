@@ -10,16 +10,16 @@ Sample for using "MPAndroidChart" in AndroidStudio4.0 (this sample in private)
   
   
 ### 【基本的な使い方】  
-  1.**activity_main/xml**で使うチャートを定義しておく。名前とか位置の制約とか。  
-  2.**MainActivity**のクラス宣言部分で **「OnChartValueSelectedListener」**を記述する。  
+  1.activity_main/xmlで使うチャートを定義しておく。名前とか位置の制約とか。  
+  2.MainActivityのクラス宣言部分で「OnChartValueSelectedListener」を記述する。  
    これでチャートのイベントリスナを設定する感じ。  
   3.mTypefaceという名前でTypeface（外観？）を定義  
   4.チャートを実装するときに必要になる以下のイベントをoverrideで記述する。（記述してないとビルド時にエラーになる）  
-   ・**「onValueSelected」**
-   ・**「onNothingSelected」**
-  5.**setupLineChart**メソッドの中でチャートの設定をしている。（メソッド名はなんでもいい、軸やラベルの設定はここでやっている）  
-  6.**lineDataWithCount**メソッドの中でチャートのデータを作成している。（ここは実際に使うデータによって修正が必要）  
-  7.元からある**onCreate**イベントの中で上記5と6で作ったメソッドを使用してチャートの初期設定をおこなっている。  
+   ・「onValueSelected」
+   ・「onNothingSelected」
+  5.setupLineChartメソッドの中でチャートの設定をしている。（メソッド名はなんでもいい、軸やラベルの設定はここでやっている）  
+  6.lineDataWithCountメソッドの中でチャートのデータを作成している。（ここは実際に使うデータによって修正が必要）  
+  7.元からあるonCreateイベントの中で上記5と6で作ったメソッドを使用してチャートの初期設定をおこなっている。  
   8.基本はこれでチャートは表示されるが、チャートの種類によっては設定が異なる模様。  
    あと、データが変更された際の再描画などは自動なのかどうか不明。  
   9.一番上のimportしているところでいくつか追加しているので、コードを書いてて参照できないエラーが出る場合はimportの不足をチェックするとよいかも。（多分名前空間が参照できていない）  
