@@ -1,10 +1,13 @@
 # MPAndroidChartFirstSample
 Sample for using "MPAndroidChart" in AndroidStudio4.0 (this sample in private)
 
+
+
 ## 【まえがき】
 #### このサンプルはAndroidStudio4.0でMPAndroidChartを使うための自分用覚書です。
 #### Android開発初心者でMPAndroidChartも当然初心者レベルです。
 #### だから、コピペして動かなくても文句言わないでください。（笑
+
 
 ## 【基本的な使い方】
 ###  1.activity_main/xmlで使うチャートを定義しておく。名前とか位置の制約とか。
