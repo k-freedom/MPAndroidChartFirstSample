@@ -1,8 +1,8 @@
-# MPAndroidChartFirstSample
+### MPAndroidChartFirstSample
 Sample for using "MPAndroidChart" in AndroidStudio4.0 (this sample in private)
-
-
-
+  
+  
+  
 ## 【まえがき】
  このサンプルはAndroidStudio4.0でMPAndroidChartを使うための自分用覚書です。  
  Android開発初心者でMPAndroidChartも当然初心者レベルです。  
